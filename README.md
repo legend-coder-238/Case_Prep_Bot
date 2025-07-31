@@ -56,40 +56,6 @@
 **Storage**: SQLite for chat history  
 **Deployment-ready**: Can be containerized & hosted via Streamlit Cloud, Railway, or any VM
 
----
-
-## 🧪 Sample Prompts
-
-> **Case Prompt**: "Your client is a food delivery startup in Southeast Asia. Revenues are flatlining. What would you like to know first?"
-
-> **Guesstimate Prompt**: "Estimate the number of umbrellas sold annually in Mumbai."
-
-> **Concept Prompt**: "Explain the profitability framework and when to apply it."
 
 ---
 
-## 🧙 Team Member
-
-- **Ankur** – IIT Delhi | GenAI + Strategy Enthusiast
-
----
-
-## 🚧 Roadmap
-
-- [x] Case/Guesstimate/Topic modules  
-- [x] Chat memory persistence  
-- [ ] Light/Dark mode toggle  
-- [ ] Responsive design polish  
-- [ ] Add custom case upload option  
-- [ ] Deployment on HuggingFace / Streamlit Cloud
-
----
-
-## ⚡ Getting Started
-
-```bash
-git clone https://github.com/legend-coder-238/Case_Prep_Bot.git
-cd Case_Prep_Bot
-python -m venv .venv
-source .venv/bin/activate   # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
