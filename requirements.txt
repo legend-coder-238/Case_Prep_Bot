@@ -7,7 +7,7 @@ langchain-core
 langchain-community
 langchain-google-genai
 langchain-huggingface
-
+langchain-qdrant
 qdrant-client
 
 unstructured[pdf]
