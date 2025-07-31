@@ -1,0 +1,20 @@
+[project]
+name = "case-prep-bot"
+version = "0.1.0"
+description = "A conversational AI to simulate case interviews, powered by Gemini and LangChain."
+readme = "README.md"
+requires-python = "==3.12.3"
+dependencies = [
+    "streamlit",
+    "python-dotenv",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-huggingface",
+    "qdrant-client",
+    "unstructured[pdf]",
+    "sentence-transformers",
+    "torch",
+    "protobuf",
+]
