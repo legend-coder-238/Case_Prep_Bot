@@ -17,7 +17,7 @@ def load_vector_store():
     model_name = "BAAI/bge-large-en"
     embeddings = HuggingFaceEmbeddings(
     model_name=model_name,
-    model_kwargs={"device": "cuda"},
+    model_kwargs={"device": "cpu"},
     encode_kwargs={"normalize_embeddings": False}
     )
     
