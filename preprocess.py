@@ -59,7 +59,7 @@ print("Data pushed to Qdrant Cloud.")
 
 # Count vectors in DB 
 client = QdrantClient(
-    url="https://93375cc8-fbb5-4562-bd92-b5a896439091.us-east4-0.gcp.cloud.qdrant.io",
+    url=os.getenv("QDRANT_URL"),
     api_key=os.getenv("QDRANT_API_KEY"),
 )
 count = client.count("casebook_vector_db", exact=True).count
